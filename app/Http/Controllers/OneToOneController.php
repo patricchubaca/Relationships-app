@@ -14,6 +14,6 @@ class OneToOneController extends Controller
 
         $location = $country->location;
 
-        dd($location->longitude);
+        dd(" Latitude : ". $location->longitude ." Latitude : ".$location->latitude);
     }
 }
