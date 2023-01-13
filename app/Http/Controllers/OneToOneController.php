@@ -30,5 +30,11 @@ class OneToOneController extends Controller
 
            $pais = Country::find($location->id);
            echo $pais;
+
+           $country = $location->country;
+
+           echo $country;
+
+           echo $country->name;
     }
 }
